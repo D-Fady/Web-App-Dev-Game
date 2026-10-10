@@ -502,6 +502,7 @@ function flashSaveIndicator() {
 const SUPABASE_URL = 'https://ruyzezkygmnlqygzceug.supabase.co';       // Project URL (ex: https://xxxx.supabase.co)
 const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InJ1eXplemt5Z21ubHF5Z3pjZXVnIiwicm9sZSI6ImFub24iLCJpYXQiOjE3OTE0NzAxNDQsImV4cCI6MjEwNzA0NjE0NH0.PJLB2P61AKjOP-l1FXr01ifvVrlwHkQ5kIvVc_tCPTg';
 const SUPABASE_ROW_ID = 1;
+const SUPABASE_TABLE = 'tracker_state';
 
 const CLIENT_ID = Math.random().toString(36).slice(2) + Date.now().toString(36);
 let sb = null;               // client Supabase (null = mode local uniquement)
